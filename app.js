@@ -23,6 +23,6 @@ app.get('/datosDeUsuarios', (req,res)=>{
     res.sendFile(__dirname + '/views/datosDeUsuarios.html');
 });
 
-app.listen(3000, ()=>{
+app.listen(process.env.PORT || 3000, function () {
     console.log('Servidor funcionando a las chapas por localhost:3000');
 });

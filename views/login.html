@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="css/login.css">
         <link rel="stylesheet" href="css/register.css">
         <link rel="stylesheet" href="css/animation.css">
-        <link rel="stylesheet" href="css/copyheroku.css">
+        
     </head>
     <!--se copió y pegó head de home-->
 <body>
@@ -43,6 +43,7 @@
             <i class="fa fa-bars burger"></i>
         </div>
     </header>
+    <!--   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->
     <main>
 
         <section>
@@ -50,22 +51,26 @@
             <form action="/datosDeUsuarios" method="POST" enctype="multipart/form-data">
 
                 <ul>
-            <li><label for="email"> Ingresá tu correo electronico registrado <input type="email" id="email" name="email"> </label> </li>
+            <li><label for="email"> Ingresá tu correo electronico registrado 
+                <input type="email" id="email" name="email"> 
+            </label> </li>
             
-            <li><label for="contrasena"> Contraseña <input type="password" id="contrasena" name="contrasena"></label> </li>
+            <li><label for="contrasena"> Contraseña 
+                <input type="password" id="contrasena" name="contrasena">
+            </label> </li>
             
             
 
         </ul>
-        <label for="submit"></label>
-        <button type="submit" name="envioFormulario"> CONTINUAR </button>
+        <label for="submit"class="buttonlogin"><button  type="submit" name="envioFormulario"> CONTINUAR </button></label>
+        
         <label for="reset>"></label>
         <button type="reset" name="borradoFormulario"> BORRAR </button>
     
     </form>
 </section>
 
-<a href="/register">
+<a class="registrate" href="/register">
     <button>REGISTRATE</button>
   </a>
 

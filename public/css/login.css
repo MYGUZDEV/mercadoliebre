@@ -1,0 +1,9 @@
+.buttonlogin :hover {
+  background:   #0022AA ;
+  color: white;
+}
+
+.registrate :hover {
+    background: yellowgreen;
+    color: black;
+}

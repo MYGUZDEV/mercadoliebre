@@ -1,4 +1,30 @@
-footer div i {
+
+footer section {
   
-  padding: 15%;
+  display:flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items:center;
+}
+footer section div h5 {
+  padding: 1%;
+  text-align: center;
+  
+}
+footer section p {
+  padding: 1%;
+  text-align: center;
+
+}
+footer section div h4 {
+  text-align: center;
+}
+footer section div {
+  padding: 10px, 5px,10px,5px;
+  
+  text-align: center;
+}
+footer {
+  display:flexbox;
+  padding: 10%;
 }

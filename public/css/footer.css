@@ -1,8 +1,4 @@
-footer p i.class {
-  align-items: center;
-  margin: 10px 0px;
-  margin-top: 10px;
-  margin-right: 0px;
-  margin-bottom: 10px;
-  margin-left: 0px;
+footer div i {
+  
+  padding: 15%;
 }

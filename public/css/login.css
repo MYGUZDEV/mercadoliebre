@@ -1,9 +1,18 @@
 .buttonlogin :hover {
   background:   #0022AA ;
   color: white;
+  transition-property:all;
+    
+    transition-duration: 1s;
+    font-weight: bold;
 }
 
 .registrate :hover {
     background: yellowgreen;
     color: black;
+    font-weight: bold;
+    transition-property:all;
+    
+    transition-duration: 1s;
+    
 }

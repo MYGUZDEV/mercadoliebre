@@ -3,6 +3,9 @@ node_modules
 package-lock.json
 
 borradorfooter.html
+copyheroku.css
+copyhome.html
+
 # Logs
 logs
 *.log
